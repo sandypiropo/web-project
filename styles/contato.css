@@ -1,0 +1,94 @@
+/* contato.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+#menu {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-links {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#conteudo {
+    display: block; /* Alterando de flex para block */
+    align-items: center;
+    padding: 20px;
+    color: rgb(65, 65, 65);
+}
+
+#titulo {
+    display: flex;
+    color: #AF239D;
+    align-items: center;
+}
+
+/* Adicione margem superior para separar os elementos verticalmente */
+.formulario {
+    margin-top: 20px;
+}
+
+/* Estilos para a classe 'formulario' */
+.formulario {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os campos de entrada e rótulos */
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+.formulario textarea {
+    resize: vertical; /* Permite redimensionar verticalmente o campo de texto */
+}
+
+/* Estilos para o botão de envio */
+.formulario input[type="submit"] {
+    background-color: #AF239D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #AF239D;
+}

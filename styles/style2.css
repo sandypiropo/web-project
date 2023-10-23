@@ -1,0 +1,83 @@
+/* style2.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+#menu {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-links {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Define a altura para ocupar toda a altura da tela. */
+}
+
+#menu-links a:hover {
+    background-color: #ececec;
+    color: #AF239D;
+}
+
+#titulo {
+    display: flex;
+    color: #AF239D;
+    align-items: center;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column; /* Para empilhar os elementos verticalmente */
+    align-items: center;
+    padding: 20px;
+    color: rgb(65, 65, 65); 
+}
+
+#formacao {
+    margin-top: 20px; /* Adiciona margem superior para separar do título */
+}
+
+h3 {
+    color: #AF239D; /* Cor para o título da formação */
+}
+
+p {
+    color: rgb(65, 65, 65);
+}
+
+/* CSS para o botão do GitHub */
+#formacao a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#formacao a:hover {
+    background-color: #000; /* Cor de fundo ao passar o mouse */
+}

@@ -1,0 +1,72 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+}
+
+#menu {
+    background-color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-links {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+#menu-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#conteudo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Define a altura para ocupar toda a altura da tela. */
+}
+
+#menu-links a:hover {
+    background-color: #ececec;
+    color: #AF239D;
+}
+
+#titulo {
+    display: flex;
+    color: #AF239D;
+    align-items: center;
+}
+
+
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(65, 65, 65); 
+}
+
+#subtitulo {
+    color: black;
+}
+
+p {
+    color: rgb(65, 65, 65);
+}
+
+#imagem img {
+    max-width: 80%;
+    height: auto;
+}
